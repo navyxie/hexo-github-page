@@ -12,6 +12,7 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
+- time
 - category
 - tag
 - tagcloud

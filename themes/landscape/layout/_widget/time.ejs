@@ -1,0 +1,40 @@
+<div style="text-align:center;">
+  <div class="widget-wrap">
+    <h3 class="widget-title">当前时间</h3>
+    <div class="widget">
+      <span id="year-month-date"></span>
+      <span id="weekDay"></span>
+      <span id="hour-min-sec"></span>
+    </div>
+  </div>
+<div>
+<script>
+var weekday = [
+  "星期日",
+  "星期一",
+  "星期二",
+  "星期三",
+  "星期四",
+  "星期五",
+  "星期六"
+];
+var dateDom = document.getElementById('year-month-date');
+var weekdayDom =  document.getElementById('weekDay');
+var timeDom = document.getElementById('hour-min-sec');
+function prefixTime(num){
+  if(num < 10){
+    return '0'+num;
+  }
+  return num;
+}
+function updateDom(){
+  var date = new Date();
+  dateDom.innerHTML = date.getFullYear() + '/' + (1+date.getMonth()) + '/'+date.getDate();
+  weekdayDom.innerHTML = weekday[date.getDay()];
+  timeDom.innerHTML = prefixTime(date.getHours()) + ':' + prefixTime(date.getMinutes()) + ':' + date.getSeconds();
+}
+function updateTime(){
+  window.setInterval(updateDom,1000);
+}
+updateTime()
+</script/>
