@@ -3,7 +3,6 @@ title: 收藏
 date: 2016-04-07 01:50:29
 tags:
 ---
-+ [ECMAScript 6 特性的支持程度](http://kangax.github.io/compat-table/es6/)
 + [JavaScript SDK 设计指导](https://github.com/huei90/javascript-sdk-design)
 + [js-the-right-way](https://github.com/braziljs/js-the-right-way)
 + [JSbooks](https://github.com/revolunet/JSbooks)
