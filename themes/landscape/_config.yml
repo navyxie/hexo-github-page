@@ -30,9 +30,19 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-google_analytics:
+google_analytics: true
 favicon: /favicon32.ico
 twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+
+# Toc
+toc:
+  article: true 
+  aside: true 
+
+# Author information
+author:
+  github: navyxie
