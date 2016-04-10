@@ -8,3 +8,4 @@ tags: ['工具库','tool']
 + [校验身份证合法性，获取身份证详细信息](https://github.com/navyxie/idcard)
 + [事件扩展工具库](https://github.com/navyxie/minievent)
 + [Nodejs的加密解密](https://github.com/navyxie/n-crypto)
++ [使用 MTR 诊断网络问题](https://meiriyitie.com/2015/05/26/diagnosing-network-issues-with-mtr/)

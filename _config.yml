@@ -72,3 +72,10 @@ deploy:
   repo: https://github.com/navyxie/navyxie.github.io.git
   branch: master
   message: test hexo 
+
+#feed
+
+feed: 
+  type: atom
+  path: atom.xml
+  limit: 20
