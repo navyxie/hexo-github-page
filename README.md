@@ -12,3 +12,4 @@
 - [Hexo来源](https://zespia.tw/blog/2012/10/11/hexo-debut/)
 - [Hexo主题](http://syxiaqj.github.io/2014/02/19/introduce-hexo-theme/)
 - [Hexo主题-pacman](https://yangjian.me/workspace/introducing-pacman-theme/)
+- [hexo搭建博客](http://opiece.me/2015/04/09/hexo-guide-2/)
