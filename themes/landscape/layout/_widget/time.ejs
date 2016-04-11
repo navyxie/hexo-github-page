@@ -29,7 +29,7 @@ function updateDom(){
   var date = new Date();
   dateDom.innerHTML = date.getFullYear() + '/' + (1+date.getMonth()) + '/'+date.getDate();
   weekdayDom.innerHTML = weekday[date.getDay()];
-  timeDom.innerHTML = prefixTime(date.getHours()) + ':' + prefixTime(date.getMinutes()) + ':' + date.getSeconds();
+  timeDom.innerHTML = prefixTime(date.getHours()) + ':' + prefixTime(date.getMinutes()) + ':' + prefixTime(date.getSeconds());
 }
 function updateTime(){
   window.setInterval(updateDom,1000);
