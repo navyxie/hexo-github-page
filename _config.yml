@@ -46,6 +46,8 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  分类: category
+  测试: test
 tag_map:
 
 # Date / Time format
