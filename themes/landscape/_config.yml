@@ -49,3 +49,6 @@ author:
 
 # duoshuo
 duoshuo_shortname: navyxie
+
+# ibruce 不算子计数（http://service.ibruce.info/）
+ibruce_counter: true
