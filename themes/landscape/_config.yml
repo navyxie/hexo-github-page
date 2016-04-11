@@ -30,7 +30,7 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-google_analytics: true
+google_analytics: false
 favicon: /favicon32.ico
 twitter:
 google_plus:
@@ -52,3 +52,6 @@ duoshuo_shortname: navyxie
 
 # ibruce 不算子计数（http://service.ibruce.info/）
 ibruce_counter: true
+
+# baidu tongji
+baidu_tongji: true
