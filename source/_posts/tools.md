@@ -2,6 +2,8 @@
 title: 工具
 date: 2016-04-07 01:43:51
 tags: ['工具库','tool']
+categories: 
+ - 工具
 ---
 + [根据银行卡卡号查询银行类型和卡类型](https://github.com/navyxie/bankcardinfo)
 + [通过手机号查询运营商以及号码归属地](https://github.com/navyxie/phone-service)

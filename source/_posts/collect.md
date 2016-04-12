@@ -1,7 +1,9 @@
 ---
 title: 收藏
 date: 2016-04-07 01:50:29
-tags:
+tags: ['JavaScript']
+categories: 
+ - 收藏
 ---
 + [JavaScript SDK 设计指导](https://github.com/huei90/javascript-sdk-design)
 + [js-the-right-way](https://github.com/braziljs/js-the-right-way)

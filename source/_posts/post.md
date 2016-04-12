@@ -1,7 +1,9 @@
 ---
 title: 文章
 date: 2016-04-07 01:49:10
-tags:
+tags: ['插件化','npm','protractor','测试']
+categories: 
+ - 随笔
 ---
 + [如何进行插件化开发](https://github.com/navyxie/how-to-plugin-development)
 + [protractor-scenario(利用protractor进行场景测试)](https://github.com/navyxie/protractor-scenario)
