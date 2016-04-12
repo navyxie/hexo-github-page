@@ -2,6 +2,8 @@
 title: 微信开放平台接入
 date: 2016-04-07 01:41:10
 tags: ['微信','开发平台']
+categories: 
+ - 微信开发
 ---
 
  + [微信公众平台接入例子](https://github.com/navyxie/wechat-develop/)
