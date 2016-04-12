@@ -18,3 +18,18 @@ rss_feed: RSS Feed
 category: Category
 tag: Tag
 recent_comments: 最新评论
+counter:
+  tag_cloud:
+    zero: 暂无标签
+    one: 目前共计 1 个标签
+    other: "目前共计 %d 个标签"
+
+  categories:
+    zero: 暂无分类
+    one: 目前共计 1 个分类
+    other: "目前共计 %d 个分类"
+
+  archive_posts:
+    zero: 暂无日志。
+    one: 目前共计 1 篇日志。
+    other: "目前共计 %d 篇日志。"
