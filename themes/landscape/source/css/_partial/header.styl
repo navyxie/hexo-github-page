@@ -22,6 +22,7 @@
 #header-inner
   position: relative
   overflow: hidden
+  z-index:9;
 
 #banner
   position: absolute
@@ -64,7 +65,7 @@ $logo-text
 
 #main-nav
   float: left
-  margin-left: -15px
+  margin-left: 64px
 
 $nav-link
   float: left
@@ -163,3 +164,18 @@ $nav-link
   cursor: pointer
   &:hover, &:focus
     color: #777
+
+#avatar
+  position:absolute
+  z-index:99
+  left:35px
+  top:9px
+  width:40px
+  height:40px
+  border-radius:50%
+  background-size:contain
+  background-image:url('images/avatar.jpeg')
+  a
+    display:inline-block
+    width:100%
+    height:100%
