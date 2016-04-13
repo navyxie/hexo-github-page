@@ -4,16 +4,16 @@
 		    <%= _p('counter.tag_cloud', site.tags.length) %>
 		</div>
 		<div class="tag-cloud-tags">
-		  <%- tagcloud({min_font: 16, max_font: 30, amount: 200, color: true, start_color: '#258fb8', end_color: '#111'}) %>
+			<%- tagcloud(site.tags,{min_font: 16, max_font: 30, amount: 200, color: true, start_color: '#fff', end_color: '#258fb8'}) %>
 		</div>
 	</div>
 <% } else if(page.type === "categories"){ %>
 	<div class="category-all-page" id="page-category">
 		<div class="category-all-title">
-		    <%= _p('counter.categories', site.categories.length) %>
+			<%= _p('counter.categories', site.categories.length) %>
 		</div>
 		<div class="category-all">
-		  <%- list_categories() %>
+		  <%- list_categories(site.categories) %>
 		</div>
 	</div>
 <% } else { %>

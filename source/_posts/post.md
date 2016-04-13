@@ -1,7 +1,7 @@
 ---
 title: 文章
 date: 2016-04-07 01:49:10
-tags: ['插件化','npm','protractor','测试']
+tags: ['插件化','npm','protractor','测试','框架']
 categories: 
  - 随笔
 ---
