@@ -11,6 +11,8 @@ categories:
 + [superherojs](https://github.com/superherojs/superherojs)
 + [前端开发者都应知道的 jQuery 小技巧](http://web.jobbole.com/84028/)
 + [常用的 Javascript 设计模式](http://web.jobbole.com/29454/)
+
+<!--more-->
 + [10 个 jQuery 图表插件推荐](http://web.jobbole.com/21136/)
 + [理解JavaScript原型](http://web.jobbole.com/9648/)
 + [只有20行Javascript代码！手把手教你写一个页面模板引擎](http://web.jobbole.com/56689/)
