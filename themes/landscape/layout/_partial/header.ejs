@@ -10,8 +10,16 @@
         <% } %>
       </nav>
       <nav id="sub-nav">
-        <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        <% if (theme.rss){ %>
+          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="<%= __('rss_feed') %>"></a>
+        <% } %>
+        <% if(theme.swift_search){ %>
+          <a id="nav-search-btn" class="nav-icon" title="<%= __('search') %>"></a>
+        <% } %>
       </nav>
+      <% if(theme.swift_search){ %>
+        <%- partial('_partial/swiftype') %>
+      <% } %>
     </div>
   </div>
 </header>
