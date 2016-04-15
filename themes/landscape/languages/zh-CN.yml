@@ -10,13 +10,13 @@ archive_a: 归档
 archive_b: 归档：%s
 page: 第 %d 页
 recent_posts: 最新文章
-newer: Newer
-older: Older
-share: Share
+newer: 上一篇
+older: 下一篇
+share: 告知好友
 powered_by: Powered by
 rss_feed: RSS Feed
-category: Category
-tag: Tag
+category: 分类
+tag: 标签
 recent_comments: 最新评论
 counter:
   tag_cloud:
