@@ -8,5 +8,6 @@ categories:
 + [phaser-demo](https://github.com/navyxie/Phaser-demo)
 + [flappy-bird](https://github.com/navyxie/Phaser-demo/tree/master/examples/flappy-bird)
 + [earth](https://github.com/navyxie/Phaser-demo/tree/master/examples/earth)
+<!--more-->
 + [eat-star](https://github.com/navyxie/Phaser-demo/tree/master/examples/eat-star)
 + [music](https://github.com/navyxie/Phaser-demo/tree/master/examples/music)

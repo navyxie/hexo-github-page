@@ -8,6 +8,7 @@ categories:
 + [易宝支付SDK开发](https://github.com/navyxie/yeepay)
 + [易宝实名认证SDK开发](https://github.com/navyxie/yeepay-realname)
 + [连连支付SDK开发](https://github.com/navyxie/wapllpay)
+<!--more-->
 + [连连实名认证SDK开发](https://github.com/navyxie/llpayauth)
 + [连连代付(提现)SDK开发](https://github.com/navyxie/llpaycashpay)
 + [支付聚合平台](https://github.com/navyxie/n-pay)

@@ -33,7 +33,7 @@ description: '数据库 mongo aggregate'
   "updatedAt" : ISODate("2015-02-02T10:29:01.463Z")
 }
 ```
-
+<!--more-->
 aggregate 操作
 
 ```js

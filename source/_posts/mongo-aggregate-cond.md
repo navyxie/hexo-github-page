@@ -18,7 +18,7 @@ description: mongo aggregate cond
 { "_id" : 2, "item" : "abc2", "discount" : 20 }
 { "_id" : 3, "item" : "xyz1", "discount" : 30 }
 ```
-
+<!--more-->
 执行aggregate操作：
 
 ```js

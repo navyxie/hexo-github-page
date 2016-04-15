@@ -92,3 +92,24 @@ if sidebar is left
 
 if sidebar
   @import "_partial/sidebar"
+#totop
+  position: fixed
+  bottom: 20px
+  right: 20px
+  z-index: 1050
+  width: 15px
+  height: 13px
+  padding: 5px
+  background: #222
+  color: #fff
+  cursor: pointer
+  -webkit-transform: translateZ(0)
+  &:before
+    display: block
+    content: " "
+    margin-top: 2px
+    width: 0
+    height: 0
+    border-width: 0 7px 8px 7px
+    border-color: transparent transparent #fff transparent
+    border-style: solid
