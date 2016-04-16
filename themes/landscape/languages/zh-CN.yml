@@ -33,3 +33,5 @@ counter:
     zero: 暂无日志。
     one: 目前共计 1 篇日志。
     other: "目前共计 %d 篇日志。"
+duoshuo_tile: 我有话说
+time_title: 当前时间

@@ -20,6 +20,7 @@ description: hexo landscape theme
 
 解决方法(layout/_partial/archive.ejs)：
 
+<!--more-->
 ```js
 <nav id="page-nav">
 	<% var prev_text = "&laquo; " + __('prev');var next_text = __('next') + " &raquo;"%>

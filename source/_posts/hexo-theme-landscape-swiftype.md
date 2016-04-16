@@ -26,7 +26,7 @@ hexo 默认自带的搜索引擎是google,我们接下来是讲解如何用swift
 </script>
 //请更换自己的kWSKry9NQXF2ddPp_Lay
 ```
-
+<!--more-->
 2. 搜索主题的search_form方法，不同主题可能位置不一样，但是landscape主题是在layout/_partial/header.ejs文件中，替换掉search_form方法，如下：
 
 ```js

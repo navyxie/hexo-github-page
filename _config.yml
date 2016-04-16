@@ -26,6 +26,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+  - README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -61,7 +62,7 @@ time_format: HH:mm:ss
 ## Set per_page to 0 to disable pagination
 per_page: 4
 pagination_dir: page
-
+archive: 1
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
@@ -74,7 +75,7 @@ deploy:
   type: git
   repo: https://github.com/navyxie/navyxie.github.io.git
   branch: master
-  message: test hexo 
+  message: hexo blog 
 
 #feed
 
