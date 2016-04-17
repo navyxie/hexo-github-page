@@ -4,7 +4,7 @@
 		    <%= _p('counter.tag_cloud', site.tags.length) %>
 		</div>
 		<div class="tag-cloud-tags">
-			<%- tagcloud(site.tags,{min_font: 16, max_font: 20, amount: 200, color: true, start_color: '#fff', end_color: '#258fb8'}) %>
+			<%- list_tags(site.tags,{min_font: 14, max_font: 18, amount: 200}) %>
 		</div>
 	</div>
 <% } else if(page.type === "categories"){ %>
