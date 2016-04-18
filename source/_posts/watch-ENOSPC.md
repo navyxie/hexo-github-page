@@ -8,7 +8,7 @@ photos:
 description: 'Node.JS Error: ENOSPC'
 ---
 
-## Node.JS Error: ENOSPC
+## Node.JS Error: ENOSPC (ENOSPC:Error No space left on device)
 
 ### Run the below command:
 
