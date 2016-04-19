@@ -45,7 +45,7 @@ Redis.GET(token,function (err, data) {
 
 token值切分成每个字符插入到HTML dom 中
 
-···
+```
 var bodyEndStr = '</body>';
 var bodyStartStr = '<body';
 var token = '后端生成的token';
@@ -77,11 +77,11 @@ for(var i = 0 ; i < tokenLen ; i++){
   }
   addLen += htmlTag.length;
 }
-···
+```
 
 FN_UTIL 的代码：
 
-···
+```
 var SALTCHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 var htmlTags = ['div','p','span','strong','h1','h2','h3','h4','h5','h6','i','b'];
 module.exports = {
@@ -109,7 +109,7 @@ module.exports = {
     return htmlTags[Math.floor(Math.random()*htmlTags.length)];
   }
 }
-···
+```
 
 ### Native(IOS,Android)端
 
