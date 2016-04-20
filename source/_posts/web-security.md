@@ -68,9 +68,9 @@ for(var i = 0 ; i < tokenLen ; i++){
   var curIndex = bodyStarIndex+htmlTagLastIndexs[randomIndex]+addLen;
   var prevHtml = html.substring(0,curIndex);
   var nextHtml = html.substr(curIndex); 
-  scriptStr += 'r += g("'+(tokenId+i)+'");w.kklc_tokenStr=r;';
+  scriptStr += 'r += g("'+(tokenId+i)+'");';
   if(i === tokenLen-1){
-    scriptStr += '';
+    scriptStr += 'w.xxx=r;';
     html = prevHtml.concat(htmlTag,'<script>(function(w){'+scriptStr+'})(window)</script>',nextHtml);//执行js获取token值
   }else{
     html = prevHtml.concat(htmlTag,nextHtml);
@@ -83,7 +83,7 @@ FN_UTIL 的代码：
 
 ```
 var SALTCHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-var htmlTags = ['div','p','span','strong','h1','h2','h3','h4','h5','h6','i','b'];
+var htmlTags = ['b','big','i','small','tt','abbr','acronym','cite','code','dfn','em','kbd','strong','samp','time','bdo','map','q','span','sub','sup','button','label'];
 module.exports = {
   generateSalt:function(length){
     var i, r = [];
@@ -126,3 +126,6 @@ var encodeData = crypto.encode('xxxx_time');
 
 - 整个防盗流程都是技术手段在处理，对用户透明，既起到一定的安全防护又不失用户体验
 - Native端通过加密获取token，即使获取token的接口被监听，有时间戳校验，也是在很大程度上防止盗刷
+
+
+**注意，随机的标签不能是块级元素，不然原本块级元素内包含内联元素，嵌入块级元素后会导致元素布局错乱.内联元素列表参照[https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements)**
