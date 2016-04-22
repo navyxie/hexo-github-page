@@ -21,3 +21,7 @@ description:
 
 - [http://coffeedeveloper.github.io/typing.js/](http://coffeedeveloper.github.io/typing.js/)
 - [https://github.com/mattboldt/typed.js](https://github.com/mattboldt/typed.js)
+
+## 动画
+
+- [https://github.com/daneden/animate.css](https://github.com/daneden/animate.css)
