@@ -49,3 +49,5 @@ ImageLoader(imageArr,config)
   </body>
 </html>
 ```
+
+[源码地址：https://github.com/navyxie/imageloader](https://github.com/navyxie/imageloader)
