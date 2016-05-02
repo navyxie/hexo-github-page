@@ -16,3 +16,8 @@ description:
 
 
 使用express的nodejs应用程序，需要注意，使用代理服务器转发的时候，获取请求协议的时候正确的取值方法是req.headers['x-forwarded-proto']，直接取值req.protocol取得值是http,在接入微信授权的时候，本地调试都正常，一旦部署到线上(https)，就会提示：`config: invalid signature`。所以当接入微信API，本地调试一切正常，到线上(https)部署后发现不正常，就应当检查一下授权的地址协议是否正确。
+
+### referrer:
+
+[https://github.com/nodejs/node-v0.x-archive/issues/6735](https://github.com/nodejs/node-v0.x-archive/issues/6735)
+[https://github.com/expressjs/express/issues/1863](https://github.com/expressjs/express/issues/1863)
