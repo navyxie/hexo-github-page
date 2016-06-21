@@ -2,6 +2,9 @@
 title: sails-orm-bug
 categories:
   - framework
+  - sails
+  - nodejs
+  - mvc
 date: 2016-06-20 19:38:39
 tags: ['sails','orm','bug']
 photos:
